@@ -8,7 +8,7 @@ tigera.io. 21600 IN NS ns-cloud-c1.googledomains.com.
 tigera.io. 21600 IN NS ns-cloud-c2.googledomains.com.
 tigera.io. 21600 IN NS ns-cloud-c3.googledomains.com.
 tigera.io. 21600 IN NS ns-cloud-c4.googledomains.com.
-tigera.io. 21600 IN SOA ns-cloud-c1.googledomains.com. cloud-dns-hostmaster.google.com. 2 21600 3600 1209600 300
+tigera.io. 21600 IN SOA ns-cloud-c1.googledomains.com. hostmaster.tigera.io. 2 21600 3600 1209600 300
 tigera.io. 60 IN SPF "v=spf1" "include:_spf.google.com" "~all"
 tigera.io. 60 IN TXT "google-site-verification=V8by3JQMjN8gjTVCoyHQ-36TdTAey6SPOcp8GPhDsXQ"
 tigera.io. 60 IN TXT "v=spf1" "include:_spf.google.com" "~all"

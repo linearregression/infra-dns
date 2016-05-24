@@ -12,21 +12,48 @@ type: NS
 kind: dns#resourceRecordSet
 name: sfo.tigera.io.
 rrdatas:
-- ns-cloud-a1.googledomains.com. cloud-dns-hostmaster.google.com. 1 21600 3600 1209600
-  300
+- ns-cloud-a1.googledomains.com. hostmaster.tigera.io. 1 21600 3600 1209600 300
 ttl: 21600
 type: SOA
 ---
 kind: dns#resourceRecordSet
+name: chesterfield-ipmi.sfo.tigera.io.
+rrdatas:
+- 10.7.44.7
+ttl: 60
+type: A
+---
+kind: dns#resourceRecordSet
+name: chssterfield.sfo.tigera.io.
+rrdatas:
+- 10.7.44.17
+ttl: 60
+type: A
+---
+kind: dns#resourceRecordSet
+name: erie.sfo.tigera.io.
+rrdatas:
+- 10.7.44.18
+ttl: 60
+type: A
+---
+kind: dns#resourceRecordSet
+name: erie-ipmi.sfo.tigera.io.
+rrdatas:
+- 10.7.44.8
+ttl: 60
+type: A
+---
+kind: dns#resourceRecordSet
 name: munin.sfo.tigera.io.
 rrdatas:
-- 10.7.44.6
-ttl: 300
+- 10.7.44.16
+ttl: 60
 type: A
 ---
 kind: dns#resourceRecordSet
 name: munin-ipmi.sfo.tigera.io.
 rrdatas:
-- 10.7.44.16
-ttl: 300
+- 10.7.44.6
+ttl: 60
 type: A

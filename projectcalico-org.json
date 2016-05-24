@@ -30,8 +30,7 @@ type: NS
 kind: dns#resourceRecordSet
 name: projectcalico.org.
 rrdatas:
-- ns-cloud-b1.googledomains.com. cloud-dns-hostmaster.google.com. 1 21600 3600 1209600
-  300
+- ns-cloud-b1.googledomains.com. hostmaster.tigera.io. 1 21600 3600 1209600 300
 ttl: 21600
 type: SOA
 ---
