@@ -1,0 +1,7 @@
+gcloud dns zone to domain to file mapping
+
+tigeraio		tigera.io		tigera-io.*
+tigera-lon		lon.tigera.io		lon-tigera-io.*
+tigerasfo		sfo.tigera.io		sfo-tigera-io.*
+projectcalico-org	projectcalico.org	projectcalico-org.*
+
