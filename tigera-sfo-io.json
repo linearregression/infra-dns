@@ -1,0 +1,32 @@
+---
+kind: dns#resourceRecordSet
+name: sfo.tigera.io.
+rrdatas:
+- ns-cloud-a1.googledomains.com.
+- ns-cloud-a2.googledomains.com.
+- ns-cloud-a3.googledomains.com.
+- ns-cloud-a4.googledomains.com.
+ttl: 21600
+type: NS
+---
+kind: dns#resourceRecordSet
+name: sfo.tigera.io.
+rrdatas:
+- ns-cloud-a1.googledomains.com. cloud-dns-hostmaster.google.com. 1 21600 3600 1209600
+  300
+ttl: 21600
+type: SOA
+---
+kind: dns#resourceRecordSet
+name: munin.sfo.tigera.io.
+rrdatas:
+- 10.7.44.6
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: munin-ipmi.sfo.tigera.io.
+rrdatas:
+- 10.7.44.16
+ttl: 300
+type: A
