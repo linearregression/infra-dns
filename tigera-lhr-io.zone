@@ -1,5 +1,0 @@
-lhr.tigera.io. 21600 IN NS ns-cloud-a1.googledomains.com.
-lhr.tigera.io. 21600 IN NS ns-cloud-a2.googledomains.com.
-lhr.tigera.io. 21600 IN NS ns-cloud-a3.googledomains.com.
-lhr.tigera.io. 21600 IN NS ns-cloud-a4.googledomains.com.
-lhr.tigera.io. 21600 IN SOA ns-cloud-a1.googledomains.com. hostmaster.tigera.io. 1 21600 3600 1209600 300

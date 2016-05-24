@@ -1,0 +1,5 @@
+lon.tigera.io. 21600 IN NS ns-cloud-b1.googledomains.com.
+lon.tigera.io. 21600 IN NS ns-cloud-b2.googledomains.com.
+lon.tigera.io. 21600 IN NS ns-cloud-b3.googledomains.com.
+lon.tigera.io. 21600 IN NS ns-cloud-b4.googledomains.com.
+lon.tigera.io. 21600 IN SOA ns-cloud-b1.googledomains.com. hostmaster.tigera.io. 1 21600 3600 1209600 300

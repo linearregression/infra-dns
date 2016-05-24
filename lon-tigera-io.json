@@ -1,0 +1,17 @@
+---
+kind: dns#resourceRecordSet
+name: lon.tigera.io.
+rrdatas:
+- ns-cloud-b1.googledomains.com.
+- ns-cloud-b2.googledomains.com.
+- ns-cloud-b3.googledomains.com.
+- ns-cloud-b4.googledomains.com.
+ttl: 21600
+type: NS
+---
+kind: dns#resourceRecordSet
+name: lon.tigera.io.
+rrdatas:
+- ns-cloud-b1.googledomains.com. hostmaster.tigera.io. 1 21600 3600 1209600 300
+ttl: 21600
+type: SOA
