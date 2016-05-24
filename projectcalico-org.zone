@@ -1,4 +1,9 @@
 projectcalico.org. 60 IN A 104.196.117.142
+projectcalico.org. 60 IN MX 1 aspmx.l.google.com.
+projectcalico.org. 60 IN MX 5 alt1.aspmx.l.google.com.
+projectcalico.org. 60 IN MX 5 alt2.aspmx.l.google.com.
+projectcalico.org. 60 IN MX 10 alt3.aspmx.l.google.com.
+projectcalico.org. 60 IN MX 10 alt4.aspmx.l.google.com.
 projectcalico.org. 21600 IN NS ns-cloud-b1.googledomains.com.
 projectcalico.org. 21600 IN NS ns-cloud-b2.googledomains.com.
 projectcalico.org. 21600 IN NS ns-cloud-b3.googledomains.com.

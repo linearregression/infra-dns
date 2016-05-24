@@ -9,6 +9,17 @@ type: A
 kind: dns#resourceRecordSet
 name: projectcalico.org.
 rrdatas:
+- 1 aspmx.l.google.com.
+- 5 alt1.aspmx.l.google.com.
+- 5 alt2.aspmx.l.google.com.
+- 10 alt3.aspmx.l.google.com.
+- 10 alt4.aspmx.l.google.com.
+ttl: 60
+type: MX
+---
+kind: dns#resourceRecordSet
+name: projectcalico.org.
+rrdatas:
 - ns-cloud-b1.googledomains.com.
 - ns-cloud-b2.googledomains.com.
 - ns-cloud-b3.googledomains.com.
