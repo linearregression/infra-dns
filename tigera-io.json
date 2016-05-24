@@ -1,0 +1,151 @@
+---
+kind: dns#resourceRecordSet
+name: tigera.io.
+rrdatas:
+- 104.196.15.99
+ttl: 60
+type: A
+---
+kind: dns#resourceRecordSet
+name: tigera.io.
+rrdatas:
+- ns-cloud-c1.googledomains.com.
+- ns-cloud-c2.googledomains.com.
+- ns-cloud-c3.googledomains.com.
+- ns-cloud-c4.googledomains.com.
+ttl: 21600
+type: NS
+---
+kind: dns#resourceRecordSet
+name: tigera.io.
+rrdatas:
+- ns-cloud-c1.googledomains.com. cloud-dns-hostmaster.google.com. 1 21600 3600 1209600
+  300
+ttl: 21600
+type: SOA
+---
+kind: dns#resourceRecordSet
+name: tigera.io.
+rrdatas:
+- '"v=spf1 include:_spf.google.com ~all"'
+ttl: 60
+type: SPF
+---
+kind: dns#resourceRecordSet
+name: tigera.io.
+rrdatas:
+- '"google-site-verification=V8by3JQMjN8gjTVCoyHQ-36TdTAey6SPOcp8GPhDsXQ"'
+- '"v=spf1 include:_spf.google.com ~all"'
+ttl: 60
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: google._domainkey.tigera.io.
+rrdatas:
+- '"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKboU7Say+Kz0boBVil29A3nthnSVMlTU0/a6iDvFqwGjHTQ+wwvr95nAmP82FufpcgYFRV8EUJF3rsOoisw32jWCYoxSdtP2k3V0wSrpJw4rewdU5liUbrdmLDf6YU+OFJK2YX11oTuNXxScraXZsk0G2uV9KipSdgYLQDTycSwIDAQAB"'
+ttl: 60
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: calendar.tigera.io.
+rrdatas:
+- ghs.googlehosted.com.
+ttl: 60
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: docs.tigera.io.
+rrdatas:
+- '"ghs.googlehosted.com."'
+ttl: 60
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: drive.tigera.io.
+rrdatas:
+- '"ghs.googlehosted.com."'
+ttl: 60
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: groups.tigera.io.
+rrdatas:
+- '"ghs.googlehosted.com."'
+ttl: 60
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: hangouts.tigera.io.
+rrdatas:
+- '"ghs.googlehosted.com."'
+ttl: 60
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: lhr.tigera.io.
+rrdatas:
+- ns-cloud-a1.googledomains.com.
+- ns-cloud-a2.googledomains.com.
+- ns-cloud-a3.googledomains.com.
+- ns-cloud-a4.googledomains.com.
+ttl: 60
+type: NS
+---
+kind: dns#resourceRecordSet
+name: mail.tigera.io.
+rrdatas:
+- '"ghs.googlehosted.com."'
+ttl: 60
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: plus.tigera.io.
+rrdatas:
+- '"ghs.googlehosted.com."'
+ttl: 60
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: sfo.tigera.io.
+rrdatas:
+- ns-cloud-a1.googledomains.com.
+- ns-cloud-a2.googledomains.com.
+- ns-cloud-a3.googledomains.com.
+- ns-cloud-a4.googledomains.com.
+ttl: 60
+type: NS
+---
+kind: dns#resourceRecordSet
+name: sheets.tigera.io.
+rrdatas:
+- '"ghs.googlehosted.com."'
+ttl: 60
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: slides.tigera.io.
+rrdatas:
+- '"ghs.googlehosted.com."'
+ttl: 60
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: support.tigera.io.
+rrdatas:
+- tigera.zendesk.com.
+ttl: 60
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: www.tigera.io.
+rrdatas:
+- tigera.wpengine.com.
+ttl: 60
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: www6.tigera.io.
+rrdatas:
+- 2001:4801:7828:104:be76:4eff:fe10:9374
+ttl: 60
+type: AAAA

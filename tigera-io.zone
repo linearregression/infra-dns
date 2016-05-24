@@ -1,0 +1,30 @@
+tigera.io. 60 IN A 104.196.15.99
+tigera.io. 21600 IN NS ns-cloud-c1.googledomains.com.
+tigera.io. 21600 IN NS ns-cloud-c2.googledomains.com.
+tigera.io. 21600 IN NS ns-cloud-c3.googledomains.com.
+tigera.io. 21600 IN NS ns-cloud-c4.googledomains.com.
+tigera.io. 21600 IN SOA ns-cloud-c1.googledomains.com. cloud-dns-hostmaster.google.com. 1 21600 3600 1209600 300
+tigera.io. 60 IN SPF "v=spf1 include:_spf.google.com ~all"
+tigera.io. 60 IN TXT "google-site-verification=V8by3JQMjN8gjTVCoyHQ-36TdTAey6SPOcp8GPhDsXQ"
+tigera.io. 60 IN TXT "v=spf1 include:_spf.google.com ~all"
+google._domainkey.tigera.io. 60 IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKboU7Say+Kz0boBVil29A3nthnSVMlTU0/a6iDvFqwGjHTQ+wwvr95nAmP82FufpcgYFRV8EUJF3rsOoisw32jWCYoxSdtP2k3V0wSrpJw4rewdU5liUbrdmLDf6YU+OFJK2YX11oTuNXxScraXZsk0G2uV9KipSdgYLQDTycSwIDAQAB"
+calendar.tigera.io. 60 IN CNAME ghs.googlehosted.com.
+docs.tigera.io. 60 IN TXT "ghs.googlehosted.com."
+drive.tigera.io. 60 IN TXT "ghs.googlehosted.com."
+groups.tigera.io. 60 IN TXT "ghs.googlehosted.com."
+hangouts.tigera.io. 60 IN TXT "ghs.googlehosted.com."
+lhr.tigera.io. 60 IN NS ns-cloud-a1.googledomains.com.
+lhr.tigera.io. 60 IN NS ns-cloud-a2.googledomains.com.
+lhr.tigera.io. 60 IN NS ns-cloud-a3.googledomains.com.
+lhr.tigera.io. 60 IN NS ns-cloud-a4.googledomains.com.
+mail.tigera.io. 60 IN TXT "ghs.googlehosted.com."
+plus.tigera.io. 60 IN TXT "ghs.googlehosted.com."
+sfo.tigera.io. 60 IN NS ns-cloud-a1.googledomains.com.
+sfo.tigera.io. 60 IN NS ns-cloud-a2.googledomains.com.
+sfo.tigera.io. 60 IN NS ns-cloud-a3.googledomains.com.
+sfo.tigera.io. 60 IN NS ns-cloud-a4.googledomains.com.
+sheets.tigera.io. 60 IN TXT "ghs.googlehosted.com."
+slides.tigera.io. 60 IN TXT "ghs.googlehosted.com."
+support.tigera.io. 60 IN CNAME tigera.zendesk.com.
+www.tigera.io. 60 IN CNAME tigera.wpengine.com.
+www6.tigera.io. 60 IN AAAA 2001:4801:7828:104:be76:4eff:fe10:9374
