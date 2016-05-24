@@ -9,6 +9,17 @@ type: A
 kind: dns#resourceRecordSet
 name: tigera.io.
 rrdatas:
+- 1 aspmx.l.google.com.
+- 5 alt1.aspmx.l.google.com.
+- 5 alt2.aspmx.l.google.com.
+- 10 alt3.aspmx.l.google.com.
+- 10 alt4.aspmx.l.google.com.
+ttl: 60
+type: MX
+---
+kind: dns#resourceRecordSet
+name: tigera.io.
+rrdatas:
 - ns-cloud-c1.googledomains.com.
 - ns-cloud-c2.googledomains.com.
 - ns-cloud-c3.googledomains.com.

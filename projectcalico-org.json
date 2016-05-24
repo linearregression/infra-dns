@@ -1,0 +1,103 @@
+---
+kind: dns#resourceRecordSet
+name: projectcalico.org.
+rrdatas:
+- 104.196.117.142
+ttl: 60
+type: A
+---
+kind: dns#resourceRecordSet
+name: projectcalico.org.
+rrdatas:
+- ns-cloud-b1.googledomains.com.
+- ns-cloud-b2.googledomains.com.
+- ns-cloud-b3.googledomains.com.
+- ns-cloud-b4.googledomains.com.
+ttl: 21600
+type: NS
+---
+kind: dns#resourceRecordSet
+name: projectcalico.org.
+rrdatas:
+- ns-cloud-b1.googledomains.com. cloud-dns-hostmaster.google.com. 1 21600 3600 1209600
+  300
+ttl: 21600
+type: SOA
+---
+kind: dns#resourceRecordSet
+name: projectcalico.org.
+rrdatas:
+- '"v=spf1" "include:_spf.google.com" "~all"'
+ttl: 60
+type: SPF
+---
+kind: dns#resourceRecordSet
+name: projectcalico.org.
+rrdatas:
+- '"v=spf1" "include:_spf.google.com" "~all"'
+ttl: 60
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: google._domainkey.projectcalico.org.
+rrdatas:
+- '"v=DKIM1;" "k=rsa;" "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1PwcepCKmDHftJnmeTgeRy6CdV9GA7ZiWxr2RmJ/TTBOYPsfHMUBS/t/3gdyFyO99dMs7RphGB9+YpzzPe10ry8jXkto+Hx+vMzn5Fd9mRW2KQbeXminrqe9CPVWm27+yA2R1h5oRBzC9DaCBSZOdznQmZ+ACh5xMDzQkgUfKIrwnMYN/S09iddyD66ibsGd4"
+  "TjrWm9eEEfswvOo2/x9aGjUrGNPi8dXygyyfrc2dT3WXsYzyP/VXwiLugEn0LHQwJuu2UeY1ZLU5XrgfvYvaS3sQhS+KWS/if0JLq773L+g1rYtXtydkd3eYkJmf1Ce9R9Q1InLfuT+bkTfqHghgwIDAQAB"'
+ttl: 60
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: binaries.projectcalico.org.
+rrdatas:
+- ec2-54-89-162-142.compute-1.amazonaws.com.
+ttl: 60
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: docs.projectcalico.org.
+rrdatas:
+- project-calico.readthedocs.org.
+ttl: 60
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: lists.projectcalico.org.
+rrdatas:
+- 64.91.234.195
+ttl: 60
+type: A
+---
+kind: dns#resourceRecordSet
+name: lists.projectcalico.org.
+rrdatas:
+- 10 lists.projectcalico.org.
+ttl: 60
+type: MX
+---
+kind: dns#resourceRecordSet
+name: lists.projectcalico.org.
+rrdatas:
+- '"v=spf1" "ip4:64.91.234.195" "-all"'
+ttl: 60
+type: SPF
+---
+kind: dns#resourceRecordSet
+name: lists.projectcalico.org.
+rrdatas:
+- '"v=spf1" "ip4:64.91.234.195" "-all"'
+ttl: 60
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: old-www.projectcalico.org.
+rrdatas:
+- 64.91.234.195
+ttl: 60
+type: A
+---
+kind: dns#resourceRecordSet
+name: www.projectcalico.org.
+rrdatas:
+- projectcalico.wpengine.com.
+ttl: 60
+type: CNAME
