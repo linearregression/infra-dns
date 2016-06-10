@@ -92,12 +92,12 @@ ttl: 60
 type: CNAME
 ---
 kind: dns#resourceRecordSet
-name: lhr.tigera.io.
+name: lon.tigera.io.
 rrdatas:
-- ns-cloud-a1.googledomains.com.
-- ns-cloud-a2.googledomains.com.
-- ns-cloud-a3.googledomains.com.
-- ns-cloud-a4.googledomains.com.
+- ns-cloud-b1.googledomains.com.
+- ns-cloud-b2.googledomains.com.
+- ns-cloud-b3.googledomains.com.
+- ns-cloud-b4.googledomains.com.
 ttl: 60
 type: NS
 ---

@@ -106,6 +106,13 @@ ttl: 60
 type: A
 ---
 kind: dns#resourceRecordSet
+name: slack.projectcalico.org.
+rrdatas:
+- calicousers-slackin-2.herokuapp.com.
+ttl: 60
+type: CNAME
+---
+kind: dns#resourceRecordSet
 name: www.projectcalico.org.
 rrdatas:
 - projectcalico.wpengine.com.

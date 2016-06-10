@@ -18,10 +18,10 @@ docs.tigera.io. 60 IN CNAME ghs.googlehosted.com.
 drive.tigera.io. 60 IN CNAME ghs.googlehosted.com.
 groups.tigera.io. 60 IN CNAME ghs.googlehosted.com.
 hangouts.tigera.io. 60 IN CNAME ghs.googlehosted.com.
-lhr.tigera.io. 60 IN NS ns-cloud-a1.googledomains.com.
-lhr.tigera.io. 60 IN NS ns-cloud-a2.googledomains.com.
-lhr.tigera.io. 60 IN NS ns-cloud-a3.googledomains.com.
-lhr.tigera.io. 60 IN NS ns-cloud-a4.googledomains.com.
+lon.tigera.io. 60 IN NS ns-cloud-b1.googledomains.com.
+lon.tigera.io. 60 IN NS ns-cloud-b2.googledomains.com.
+lon.tigera.io. 60 IN NS ns-cloud-b3.googledomains.com.
+lon.tigera.io. 60 IN NS ns-cloud-b4.googledomains.com.
 mail.tigera.io. 60 IN CNAME ghs.googlehosted.com.
 plus.tigera.io. 60 IN CNAME ghs.googlehosted.com.
 sfo.tigera.io. 60 IN NS ns-cloud-a1.googledomains.com.
