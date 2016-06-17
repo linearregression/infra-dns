@@ -8,7 +8,7 @@ projectcalico.org. 21600 IN NS ns-cloud-b1.googledomains.com.
 projectcalico.org. 21600 IN NS ns-cloud-b2.googledomains.com.
 projectcalico.org. 21600 IN NS ns-cloud-b3.googledomains.com.
 projectcalico.org. 21600 IN NS ns-cloud-b4.googledomains.com.
-projectcalico.org. 21600 IN SOA ns-cloud-b1.googledomains.com. hostmaster.tigera.io. 1 21600 3600 1209600 300
+projectcalico.org. 21600 IN SOA ns-cloud-b1.googledomains.com. hostmaster.projectcalico.org. 1 21600 3600 1209600 300
 projectcalico.org. 60 IN SPF "v=spf1" "include:_spf.google.com" "~all"
 projectcalico.org. 60 IN TXT "v=spf1" "include:_spf.google.com" "~all"
 google._domainkey.projectcalico.org. 60 IN TXT "v=DKIM1;" "k=rsa;" "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1PwcepCKmDHftJnmeTgeRy6CdV9GA7ZiWxr2RmJ/TTBOYPsfHMUBS/t/3gdyFyO99dMs7RphGB9+YpzzPe10ry8jXkto+Hx+vMzn5Fd9mRW2KQbeXminrqe9CPVWm27+yA2R1h5oRBzC9DaCBSZOdznQmZ+ACh5xMDzQkgUfKIrwnMYN/S09iddyD66ibsGd4" "TjrWm9eEEfswvOo2/x9aGjUrGNPi8dXygyyfrc2dT3WXsYzyP/VXwiLugEn0LHQwJuu2UeY1ZLU5XrgfvYvaS3sQhS+KWS/if0JLq773L+g1rYtXtydkd3eYkJmf1Ce9R9Q1InLfuT+bkTfqHghgwIDAQAB"
