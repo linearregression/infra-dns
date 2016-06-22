@@ -109,7 +109,7 @@ type: A
 kind: dns#resourceRecordSet
 name: slack.projectcalico.org.
 rrdatas:
-- oita-89711.herokussl.com.
+- slack.projectcalico.org.herokudns.com.
 ttl: 60
 type: CNAME
 ---

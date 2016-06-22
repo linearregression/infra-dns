@@ -19,5 +19,5 @@ lists.projectcalico.org. 60 IN MX 10 lists.projectcalico.org.
 lists.projectcalico.org. 60 IN SPF "v=spf1" "ip4:64.91.234.195" "-all"
 lists.projectcalico.org. 60 IN TXT "v=spf1" "ip4:64.91.234.195" "-all"
 old-www.projectcalico.org. 60 IN A 64.91.234.195
-slack.projectcalico.org. 60 IN CNAME oita-89711.herokussl.com.
+slack.projectcalico.org. 60 IN CNAME slack.projectcalico.org.herokudns.com.
 www.projectcalico.org. 60 IN CNAME projectcalico.wpengine.com.
