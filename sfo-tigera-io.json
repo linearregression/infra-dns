@@ -17,16 +17,16 @@ ttl: 21600
 type: SOA
 ---
 kind: dns#resourceRecordSet
-name: chesterfield-ipmi.sfo.tigera.io.
+name: chesterfield.sfo.tigera.io.
 rrdatas:
-- 10.7.44.7
+- 10.7.44.17
 ttl: 60
 type: A
 ---
 kind: dns#resourceRecordSet
-name: chssterfield.sfo.tigera.io.
+name: chesterfield-ipmi.sfo.tigera.io.
 rrdatas:
-- 10.7.44.17
+- 10.7.44.7
 ttl: 60
 type: A
 ---
@@ -45,14 +45,21 @@ ttl: 60
 type: A
 ---
 kind: dns#resourceRecordSet
-name: munin.sfo.tigera.io.
+name: lethe.sfo.tigera.io.
 rrdatas:
 - 10.7.44.16
 ttl: 60
 type: A
 ---
 kind: dns#resourceRecordSet
-name: munin-ipmi.sfo.tigera.io.
+name: lethe-cifs.sfo.tigera.io.
+rrdatas:
+- 10.7.44.15
+ttl: 60
+type: A
+---
+kind: dns#resourceRecordSet
+name: lethe-ipmi.sfo.tigera.io.
 rrdatas:
 - 10.7.44.6
 ttl: 60
